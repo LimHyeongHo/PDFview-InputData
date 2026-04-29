@@ -226,7 +226,7 @@ namespace SurveyDataEntry
         }
 
         private void SaveCurrentData()
-        {
+        {   
             string studentId = txtStudentId.Text.Trim();
             if (string.IsNullOrEmpty(studentId)) return;
 
